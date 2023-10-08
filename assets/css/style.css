@@ -118,6 +118,10 @@
   background: var(--sea-pink);
   color: #fff;
 }
+
+.social {
+  margin: 20px 0px;
+}
 /* main body */
 
 /* body-color */
@@ -126,17 +130,6 @@ body {
   color: #333;
   font-size: 18px;
 }
-
-/* body {
-  color: black;
-  font-size: 18px;
-} */
-
-/* main a -- links */
-
-/* a {
-  color: #009688;
-} */
 
 a {
   color: var(--azure);
@@ -193,10 +186,6 @@ nav i {
 
 /* main */
 
-/* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-} */
 
 main {
   background: url(../../assets/img/bg.png) repeat;
@@ -226,14 +215,6 @@ ul.side-nav {
 ul.side-nav li {
   padding: 0;
 }
-
-/* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-} */
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
@@ -595,8 +576,9 @@ small {
 
 @media (max-width: 992px) {
   main {
-    padding-left: 0px;
-    padding-top: 64px;
+    padding-left: 10px;
+    padding-top: 80px;
+    padding-right: 10px;
   }
   ul.side-nav a {
     line-height: 100%;
